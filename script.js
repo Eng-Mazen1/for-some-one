@@ -106,7 +106,7 @@ let particles = [];
 let currentStage = 0;
 let stageTimer = 0;
 
-const stages = ["3", "2", "1", "Proud", "of", "what", "you", "doing","TOTA", "Heart"];
+const stages = ["3", "2", "1", "Zay", "el naharda", "el 3alam", "ba'a makan", "a7la b kteeer✨", "Especially TOTA❤️", "Heart"];
 const stageDuration = 150;
 const disperseTime = 25;    
 
