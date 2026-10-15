@@ -20,6 +20,7 @@ canvas {
     left: 0;
     z-index: 1;
 }
+
 /* تصميم مشغل الموسيقى بالكامل */
 .player-container {
     position: fixed;
@@ -44,6 +45,7 @@ canvas {
     gap: 3px;
     height: 18px;
 }
+
 .waves span {
     width: 3px;
     height: 100%;
@@ -51,6 +53,7 @@ canvas {
     border-radius: 2px;
     animation: wave 1.2s infinite ease-in-out;
 }
+
 .waves span:nth-child(2) { animation-delay: 0.2s; }
 .waves span:nth-child(3) { animation-delay: 0.4s; }
 .waves span:nth-child(4) { animation-delay: 0.6s; }
@@ -65,12 +68,14 @@ canvas {
     flex-direction: column;
     align-items: flex-start;
 }
+
 .song-title {
     font-size: 14px;
     font-weight: bold;
     color: #f1c40f;
     letter-spacing: 0.5px;
 }
+
 .song-time {
     font-size: 11px;
     color: #cccccc;
@@ -92,6 +97,7 @@ canvas {
     font-weight: bold;
     transition: transform 0.2s, background 0.2s;
 }
+
 .control-btn:hover {
     transform: scale(1.08);
     background: #ffd700;
