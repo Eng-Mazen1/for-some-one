@@ -106,7 +106,7 @@ let particles = [];
 let currentStage = 0;
 let stageTimer = 0;
 
-const stages = ["3", "2", "1", "Proud", "of", "what", "you", "doing", "Heart"];
+const stages = ["3", "2", "1", "Proud", "of", "what", "you", "doing","TOTA"; "Heart"];
 const stageDuration = 150;
 const disperseTime = 25;    
 
@@ -170,7 +170,7 @@ function drawCenterText() {
 
     // 2. السطر الثاني (عربي)
     ctx.font = 'bold 22px sans-serif'; 
-    ctx.fillText('اطمني واثق فيكي كل مر سيمر ', canvas.width / 2, canvas.height / 2 + 15);
+    ctx.fillText('Happy Birth Day Ya Gameel❤️✨ ', canvas.width / 2, canvas.height / 2 + 15);
 
     // 3. السطر الثالث (إيموجي واضح وحجمه مميز)
     ctx.font = '30px sans-serif';
